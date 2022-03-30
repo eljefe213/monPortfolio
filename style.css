@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
 body {
-    padding: 0 2%;
+    padding: 0;
     margin: 0;
     font-family: 'Roboto Slab', serif;
 }
@@ -10,9 +10,10 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: gray;
     position: sticky;
     top: 0;
+    margin-top: 0;
 }
 
 nav .profile {
@@ -25,6 +26,7 @@ nav .profile {
     height: 100px;
     border-radius: 50%;
     display: inline;
+    margin-left: 22.5px;
 }
 
 nav .profile span {
@@ -41,7 +43,8 @@ nav ul {
 nav ul li {
     margin-left: 20px;
     cursor: pointer;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid gray;
+    margin-right: 10px;
 }
 
 nav ul li:hover {
@@ -71,7 +74,7 @@ nav ul li a {
 
 .page-content header p {
     line-height: 30px;
-    color: #818181;
+    color: #525252;
 }
 
 .page-content header button {
@@ -87,7 +90,7 @@ nav ul li a {
 }
 
 .page-content header button:hover {
-    color: #ccc;
+    color: #525252;
     border-bottom-color: #000;
 }
 
@@ -135,7 +138,7 @@ nav ul li a {
 
 .page-content .projects-section .projects .project .Dates {
     font-size: 14px;
-    color: rgb(145, 145, 145);
+    color: #525252;
 }
 
 footer {
